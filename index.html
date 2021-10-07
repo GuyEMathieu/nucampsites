@@ -12,8 +12,8 @@
         <!-- Additional CSS must be placed after Bootstrap CSS -->
         <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel='stylesheet' href='./node_modules/font-awesome/css/font-awesome.min.css'/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster"/>
+        <link rel="stylesheet" href="css/style.css" /> 
         <title>NuCamp: A Better Way To Camp</title>
     </head>
 
@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                        <image src='images/logo.png' class='img-fluid' />
+                        <img src='images/logo.png' alt="Logo Image" class='img-fluid' />
                     </div>
                     <div class="col">
                         <h1>NuCamp</h1>
@@ -38,7 +38,7 @@
 
         <nav class='navbar navbar-expand-sm navbar-dark sticky-top'>
             <div class="container">
-                <a href="#" class="navbar-brand"><img src='images/logo.png' height='30' width='30'/></a>
+                <a href="#" class="navbar-brand"><img src='images/logo.png' alt='Logo Image' height='30' width='30'/></a>
                 <button class='navbar-toggler ml-auto' type='button'
                     data-toggle='collapse' data-target='#nucampNavbar'>
                     <span class='navbar-toggler-icon'></span>
@@ -133,7 +133,7 @@
                                 <label class="col-form-label col-sm-6" for="date">Date</label>
                                 
                                 <div class='col col-sm-6'>
-                                    <input class="form-control" type="date" id='date' name="date" placeholder="mm/dd/yyyy"/>
+                                    <input class="form-control" type="date" id='date' name="date"/>
                                 </div>
                             </div>
 
@@ -175,6 +175,7 @@
             </div>
         </footer>
 
+        <script>start()</script>
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
