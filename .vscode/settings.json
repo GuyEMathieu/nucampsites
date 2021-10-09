@@ -1,3 +1,8 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.quickSuggestionsDelay": 5,
+    "files.trimTrailingWhitespace": true,
+    "prettier.tabWidth": 4
 }
