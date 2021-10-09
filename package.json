@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/GuyEMathieu/nucampsites#readme",
   "dependencies": {
-    "bootstrap": "4.1",
+    "bootstrap": "^4.6.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
