@@ -13,11 +13,11 @@ h2 {
 }
 
 header h2 {
-  color: #cecbff;
+  color: #cecbf3;
 }
 
 .site-footer {
-  background-image: linear-gradient(#cecbff, white);
+  background-image: linear-gradient(#cecbf3, white);
   padding: 20px 0;
 }
 
