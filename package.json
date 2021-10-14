@@ -30,7 +30,6 @@
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
-    "imagemin-cli": "^7.0.0",
     "sass": "^1.43.2"
   }
 }
