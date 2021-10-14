@@ -1,4 +1,15 @@
-$(function() {
+$(function () {
+    // Jumbotron
+    $("#reserveButton").click(function () {
+        $("#reserveModal").modal('show');
+    })
+
+    $("#loginButton").click(function () {
+       $("#loginModal").modal('show');
+    })
+
+
+    // Carousel
     $(".carousel").carousel({interval: 2000});
     $("#carouselButton").click(function(){
         $(".carousel").carousel("pause");
@@ -12,5 +23,4 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause")
         }
     })
-
 });
