@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "imagemin": "imagemin img/* -o dist/img",
+    "copyfonts": "copyfiles -f node_modules/@fortawesome/fontawesome-free/* dist/fonts",
     "lite": "lite-server",
     "scss": "sass --watch css/styles.scss css/style.css",
     "start": "npm run lite & npm run scss"
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
+    "imagemin-cli": "^7.0.0",
     "sass": "^1.43.2"
   }
 }
